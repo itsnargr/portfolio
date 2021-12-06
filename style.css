@@ -1,0 +1,81 @@
+:root {
+  --colors: #6c63ff;
+  --shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.back {
+  text-align: center;
+}
+h1 {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+.header {
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+}
+.hi {
+  font-size: 60px;
+  text-align: center;
+}
+.name {
+  text-align: center;
+  font-size: 40px;
+}
+.last {
+  text-align: center;
+  font-size: 30px;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.contact-link {
+  background: var(--colors);
+  box-shadow: var(--box-shadow);
+
+  color: white;
+}
+
+.about-link {
+  background-color: var(--colors);
+  color: #d7d7df;
+  border: 1px solid 0 5px 10px rgba(0, 0, 0, 0.938);
+}
+.launch-btn {
+  border-radius: 4px;
+  margin-top: 100px;
+  margin-bottom: 100px !important;
+  padding: 20px 15px;
+
+  text-decoration: none;
+}
+.item1 {
+  background: var(--secondary-color);
+  border-radius: 4px;
+}
+
+.item1-description > * {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.intro-project-heading {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.2;
+  padding-bottom: 9px;
+}
