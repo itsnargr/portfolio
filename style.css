@@ -2,6 +2,7 @@
   --colors: #6c63ff;
   --shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font :"poppins", sans-serif;;
 }
 .back {
   text-align: center;
@@ -19,19 +20,22 @@ h1 {
   padding: 30px;
 }
 .hi {
-  font-size: 60px;
+  font-size: 36px;
   text-align: center;
-  font-family: "poppins", sans-serif;
+  font-family: var(--font);
+  font-weight: bold;;
+
 }
 .name {
   text-align: center;
   font-size: 96px;
   font-family:"playfair Display", serif;
+ 
 }
 .last {
   text-align: center;
   font-size: 30px;
-  font-family: "poppins", sans-serif;
+  font-family: var(--font);
 }
 .navigation-links {
   display: flex;
@@ -69,11 +73,13 @@ h1 {
 .item1 {
   background: var(--secondary-color);
   border-radius: 4px;
+  font-family: var(--font);
 }
 
 .item1-description > * {
   text-align: left;
   padding-top: 20px;
+  font-family: var(--font);
 }
 
 .intro-project-heading {
@@ -85,5 +91,6 @@ h1 {
 .hero{
   background-color: #F9F7FE;
   text-align: center;
+  padding: 160px 20px;
   
 }
