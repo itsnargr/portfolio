@@ -1,8 +1,9 @@
 :root {
-  --colors: #6c63ff;
+  --colors:#38598b;
   --shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --font :"poppins", sans-serif;;
+  --back-color :#e7eaf6;
 }
 .back {
   text-align: center;
@@ -89,8 +90,44 @@ h1 {
   padding-bottom: 9px;
 }
 .hero{
-  background-color: #F9F7FE;
+  background-color: var(--back-color);
   text-align: center;
   padding: 160px 20px;
   
 }
+.about-section h2{
+  font-size: 64px;
+  font-family: var(--font);
+  line-height: 80px;
+}
+.about-section p{
+  font-size: 18px;
+  
+}
+.about-section{
+  margin: 40px 40px;
+  padding: 50px;
+}
+.contact{
+  font-size: 50px;
+}
+.content{
+  padding: 60px;
+  background-color:var(--back-color)
+  
+}
+.btn-primary{
+  background-color: var(--colors);
+}
+.social-links a {
+    margin: 0 20px;
+    color: var(--back-color);
+    background: var(--colors);
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;}
+    .navbar-nav{
+      background-color: var(--back-color)
+    }
+
